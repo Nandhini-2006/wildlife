@@ -3,4 +3,4 @@ ultralytics
 pillow
 onnx
 onnxruntime
-gunicorn
+
