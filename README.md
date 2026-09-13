@@ -6,8 +6,6 @@ The project ships as a complete stack: a trained detection model, a Flask
 inference API, and a React/TypeScript frontend — all runnable together with
 a single Docker command, or individually for development.
 
-Deployment Link: https://wildlife-weld.vercel.app/
-
 ---
 
 ## Contents
@@ -479,6 +477,8 @@ Stop any other service bound to those ports, or edit the port mappings in
 `docker-compose.yml` (for example `"8080:80"` for the frontend).
 
 ---
+
+Deployment Link: https://wildlife-weld.vercel.app/
 
 ## License
 
