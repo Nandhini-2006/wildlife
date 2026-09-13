@@ -7,7 +7,7 @@ import os
 import tempfile
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 MODEL_PATH = os.path.join(
     os.path.dirname(__file__),
