@@ -1,0 +1,47 @@
+:root {
+  --color-black: #0a0a0a;
+  --color-charcoal: #262626;
+  --color-slate: #4d4d4d;
+  --color-line: #d4d4d4;
+  --color-line-soft: #e8e8e8;
+  --color-paper: #ffffff;
+  --color-paper-muted: #f7f7f6;
+  --font-serif: "Times New Roman", Times, "Liberation Serif", serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper-muted);
+  color: var(--color-black);
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p,
+table {
+  margin: 0;
+  font-family: var(--font-serif);
+}
+
+button {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  background: var(--color-black);
+  color: var(--color-paper);
+}

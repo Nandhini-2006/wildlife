@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Datasets
+animals/
+datasets/
+*.zip
+
+# Ultralytics
+runs/
+*.cache
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment / secrets
+.env
+.env.*
