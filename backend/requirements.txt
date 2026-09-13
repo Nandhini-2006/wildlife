@@ -2,3 +2,4 @@ flask
 ultralytics
 pillow
 flask-cors
+gunicorn
